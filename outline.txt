@@ -1,0 +1,47 @@
+"What makes a developer a good developer?". Code bases can get a lot
+messy when you start adding features, functionalities, and other pages.
+This will also result in a messy, unorganized, and unclean code.
+Now imagine that and make your project a monorepo, you will cry.
+So to avoid that, I will share with you some of the best practices, and 
+tips, from Uncle Bob aka Mr. clean code.
+
+What is Bad code?
+Bad code or also known as incomplete/messy code
+which a developer cannot understand its usablility or functionality.
+In some cases it would be the lack of use of good methods while writing
+code or the lack of a well description/ documentation for the code or system software.
+
+In many cases bad code can result in deaths such as in car system failure, rockets software,
+industrial machines, ... . These failures would result in lose of life due to bad code in somecases or 
+lack of testing. And the most concerning part is that our society now in 2023, cannot run without
+software, banks, companies, schools, goverments, ... all need it to function normally. Otherwise, 
+they cannot do anything since everything is on a server, dedicated machine, or the cloud.
+
+
+What makes bad code?
+Developers, developers make bad code due to their inconsistancy and unplan of their feature/ project.
+A simple feature such as a search bar can take you 1-2 days to ship it to the end user. However when 
+you do that every time and ship fast, your codebase will lack documentation and readability. So adding a feature
+in the next 2 years would take you 6 month since your codebase is messy and changing one line of code may brake the software. And as developers make a mess, the team will go slower and slower.
+
+But don't let the idea of adding more people to the project, that it will be much faster to build features. It is like adding gasoline to fire,
+They will have to undersatnd the old messy code and they work with it thus adding more messy code on top of messy code. And that's how you get a killer code base. "The only way to go fast is to go well."
+
+ 
+What is clean code?
+A code is clean when the code/ function does one thing well. "Code that reads like well written prose." Its when developers care about other developers, so when you read the code you understand the functionality of it,
+without the need of external help to figure out what is happening. It is also when you read a code and turns out to be pretty much what you expected. 
+
+
+Ethics of code
+- function does 1 good thing
+- function less than 100 lines of code
+- understandable code
+- indent
+- max of 3 arguments a function can take
+- never pass boolean to a function 
+- variable names should be inversly proportionate to their scope that they are being used in
+
+When to use Commets?
+Comments are used when the code cannot explain itself. Every use of a comment is a failure of writing good code that explains itself.
+Its an unfortunate necessity and not a great achievement.
