@@ -6,6 +6,24 @@
   border: 0;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  height: 1rem;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff7676;
+  border-color: rgb(255, 255, 255);
+  border-radius: 9999px;
+  border-width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 9999px;
 }
 
 section {
