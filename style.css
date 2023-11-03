@@ -1,5 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital@0;1&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   border: 0;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+section {
+  min-height: 70vh;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 39px;
+}
+
+p {
+  max-width: 450px;
+  padding: 18px;
+}
+
+ul {
+  padding: 6px 6px 6px 42px;
+}
+
+li {
+  padding-bottom: 9px;
 }
